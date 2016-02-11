@@ -18,12 +18,12 @@ For getting information about how to install, please visit [Node.js](https://nod
 
 ### Test
 
-**BasicRouter**
+- **BasicRouter**
 
 In this example, we do not use `route` module for routing user access. 
 Alternatively, we try to make `route` by ourselves.
 
 ```console
-node BasicRouter.js
+> node BasicRouter.js
 ```
 

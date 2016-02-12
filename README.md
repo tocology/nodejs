@@ -24,7 +24,7 @@ In this example, we do not use `route` module for routing user access.
 
 Alternatively, we try to make `route` by ourselves.
 
-Futhermore, I recommend [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) 
+Futhermore, I recommend [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop)
 which is one of Chrome Web Application when we need to test POST method API.
 
 ```console
@@ -41,14 +41,14 @@ However, we need to add more imported modules like `fs` and `path`.
 > node example/WebServerBegin/WebServer_old.js
 ```
 
-At this example, you can find that there are kind of nested callbacks just in one function(`webserver()`)
+At this example, you can find that there are kind of nested callbacks just in one function(`webserver()`, fs.access() and fs.readFile())
 
 Hopefully, there have been changes from upgrade of es6; `Promise`
 
-So, we apply this method to our example.
+So, we refactor our code applying this method to our example.
 
 ```console
-
+> node example/WebServerBegin/WebServer.js
 ```
 
 ### License

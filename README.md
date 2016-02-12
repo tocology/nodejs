@@ -1,6 +1,6 @@
 # NodeJS
 
-This repository is for helping how to make web application using Nodejs.
+This repository deals with how to make web application using Nodejs.
 
 ## Development
 
@@ -32,5 +32,31 @@ which is one of Chrome Web Application when we need to test POST method API.
 ```
 
 - **Static Web Server**
+
+Basically, we apply `route` module that we made at previous example.
+
+However, we need to add more imported modules like `fs` and `path`.
+
+```console
+> node example/WebServerBegin/WebServer_old.js
+```
+
+At this example, you can find that there are kind of nested callbacks just in one function(`webserver()`)
+
+Hopefully, there have been changes from upgrade of es6; `Promise`
+
+So, we apply this method to our example.
+
+```console
+
+```
+
+### License
+
+MIT
+
+### Reference
+
+- **Udemy Lecture** : [all-about-nodejs](https://www.udemy.com/all-about-nodejs/)
 
 

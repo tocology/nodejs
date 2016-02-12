@@ -20,11 +20,11 @@ For getting information about how to install, please visit [Node.js](https://nod
 
 - **BasicRouter**
 
-In this example, we do not use `route` module for routing user access. 
+In this example, we do not use `route` module for routing user access.
 
 Alternatively, we try to make `route` by ourselves.
 
-Futhermore, I recommend [POSTMAN](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) 
+Futhermore, I recommend [Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop) 
 which is one of Chrome Web Application when we need to test POST method API.
 
 ```console
@@ -58,5 +58,3 @@ MIT
 ### Reference
 
 - **Udemy Lecture** : [all-about-nodejs](https://www.udemy.com/all-about-nodejs/)
-
-

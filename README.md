@@ -28,5 +28,9 @@ Futhermore, I recommend [POSTMAN](https://chrome.google.com/webstore/detail/post
 which is one of Chrome Web Application when we need to test POST method API.
 
 ```console
-> node BasicRouter.js
+> node example/BasicRouter.js
 ```
+
+- **Static Web Server**
+
+

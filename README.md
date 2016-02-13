@@ -41,15 +41,26 @@ However, we need to add more imported modules like `fs` and `path`.
 > node example/WebServerBegin/WebServer_old.js
 ```
 
-At this example, you can find that there are kind of nested callbacks just in one function(`webserver()`, fs.access() and fs.readFile())
+At this example, you can find that there are kind of nested callbacks just in one function(`webserver()`, `fs.access()` and `fs.readFile()`)
 
 Hopefully, there have been changes from upgrade of es6; `Promise`
 
-So, we refactor our code applying this method to our example.
+So, we refactor our code applying this method to our example. Additionally, we also apply `Stream` method instead of `fs`.
 
 ```console
 > node example/WebServerBegin/WebServer.js
 ```
+
+- **Create Own Module** -
+
+Let's make our own module.
+
+In this project, we will make encryption module.
+
+```console
+> node example/myModule/app.js
+```
+
 
 ### License
 

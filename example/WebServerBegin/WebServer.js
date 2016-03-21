@@ -17,7 +17,6 @@ let mimes = {
 function webserver(req, res) {
     // if the route requested is '/', then load 'index.htm' or else
     // load the requested file(s)
-    
     let baseURI = url.parse(req.url);
     let filepath = __dirname + (baseURI.pathname === '/' ? '/index.htm' : baseURI.pathname);
     

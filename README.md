@@ -61,6 +61,9 @@ In this project, we will make encryption module.
 > node example/myModule/app.js
 ```
 
+**ChatCAT**
+
+To learn NodeJS by building a practical application.
 
 ### License
 

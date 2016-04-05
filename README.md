@@ -65,6 +65,13 @@ In this project, we will make encryption module.
 
 To learn NodeJS by building a practical application.
 
+First of all, we will use `nodemon` and then install packages.
+
+```console
+> npm install -g nodemon
+> npm install
+```
+
 ### License
 
 MIT

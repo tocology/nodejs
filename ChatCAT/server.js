@@ -1,7 +1,8 @@
 'use strict'
+
 const express = require('express')
 const app = express()
-const chatCat = require('./app')
+const chatCat = require('./app/index')
 
 app.set('port', process.env.PORT || 3000)
 //app.set('views', './views')

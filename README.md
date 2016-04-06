@@ -72,6 +72,8 @@ First of all, we will use `nodemon` and then install packages.
 > npm install
 ```
 
+Basically, this project uses express.js.
+
 ### License
 
 MIT
